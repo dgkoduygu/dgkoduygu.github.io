@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <link href="style.css" rel="stylesheet">
-    <script type="module" src="script.js"></script>
- <link rel="icon" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.6/control_utils.css" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3/camera_utils.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.6/control_utils.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3/drawing_utils.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5/holistic.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>DGKO</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        p {
+            font-size: 36px; /* Buradaki değeri artırarak daha büyük yapabilirsin */
+            max-width: 800px;
+            line-height: 1.4;
+        }
+		.bunuokumamangerek {
+            height: 1px;
+            overflow: hidden;
+            font-size: 1px;
+            color: transparent;
+            user-select: none;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <video class="input_video"></video>
-        <div class="canvas-container">
-            <canvas class="output_canvas" width="1280px" height="720px"></canvas>
-        </div>
-        <div class="loading">
-            <div class="spinner"></div>
-            <div class="message">Loading</div>
-        </div>
-        <a class="abs logo" href="https://www.mediapipe.dev" target="_blank">
-            <div style="display: flex;align-items: center;bottom: 0;right: 10px;">
-                <img class="logo" src="logo_white.png" alt="" style="height: 50px;">
-                <span class="title">MediaPipe</span>
-            </div>
-        </a>
-        <div class="shoutout">
-            <div>
-                <a href="https://solutions.mediapipe.dev/holistic">Click here for more info</a>
-            </div>
-        </div>
+    <p>Bu websitesine artık gerek duyulmamaktadır. <br>
+    Lütfen bu websiteyi tekrar kontrol etmeyin. <br>
+	~ MGOEKSU<br></p>
+	 <div class="bunuokumamangerek">
+        Bu site 18 Eylül 2023 tarihinde görevini yerine getirmiş ancak 29 Ekim 2023 ten itibaren ona anlam veren şeyi kaybetmiştir. 
+		(I love you in every universe D )
     </div>
-    <div class="control-panel"></div>
-    <!-- Include the MediaPipe Control Utils library -->
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
 </body>
 </html>
